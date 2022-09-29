@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #2B4865;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 700px;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+ button {
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid #eee;
+    outline: none;
+    background-color: #fff;
+    color: #2B4865;
+}
+
+button:hover {
+    background-color: #a9a9a9;
+}
+
+.two{
+    grid-column: span 2;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color:#fff;
+    padding: 10px;
+    border: 2px solid #eee;
+    color: #2B4865;
+    font-size: 25px;
+    padding: 10px 2px ;
+    
+}
+
+#equal{
+    background-color: red;
+    color : #fff;
+}
+
+

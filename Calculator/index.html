@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - JavaScript</title>
+    <!--link bootstrap css file and js file-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <!--link css file-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--link js file-->
+    <script src="script.js"></script>
+</head>
+
+<body >
+    <div class="container">
+
+            <div class="output p-2 text-end fw-bold" id = "screenOutput" >
+               
+            </div>
+            
+
+            <button class="two" onclick = "writeInScreen('AC')">AC</button>
+            <button onclick = "writeInScreen('DEL')">DEL</button>
+            <button onclick = "writeInScreen('/')">÷</button>
+            <button onclick = "writeInScreen('1')">1</button>
+            <button onclick = "writeInScreen('2')">2</button>
+            <button onclick = "writeInScreen('3')">3</button>
+            <button onclick = "writeInScreen('*')">*</button>
+            <button onclick = "writeInScreen('4')">4</button>
+            <button onclick = "writeInScreen('5')">5</button>
+            <button onclick = "writeInScreen('6')">6</button>
+            <button onclick = "writeInScreen('+')">+</button>
+            <button onclick = "writeInScreen('7')">7</button>
+            <button onclick = "writeInScreen('8')">8</button>
+            <button onclick = "writeInScreen('9')">9</button>
+            <button onclick = "writeInScreen('-')">-</button>
+            <button onclick = "writeInScreen('.')">.</button>
+            <button onclick = "writeInScreen('0')">0</button>
+            <button class="two" id="equal" onclick = "writeInScreen('=')">=</button>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
